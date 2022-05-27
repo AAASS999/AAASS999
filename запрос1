@@ -1,0 +1,4 @@
+SELECT user
+FROM friends
+GROUP BY user
+HAVING count(*) < 4;
