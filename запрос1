@@ -18,4 +18,4 @@ LEFT JOIN friends o ON f.user=o.friend AND f.friend=o.user
 WHERE o.user IS NOT NULL AND f.user<f.friend
 
 
-
+-----------   https://prnt.sc/V6HT4sqEJscj       вид результата на  скрине 
