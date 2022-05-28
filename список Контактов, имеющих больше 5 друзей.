@@ -1,0 +1,5 @@
+SELECT u.name
+FROM friends f
+LEFT JOIN users u ON f.user=u.id
+GROUP BY f.user
+HAVING COUNT(*) > 5;
